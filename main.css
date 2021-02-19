@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+body {
+  font-family: 'Press Start 2P', cursive;
+    background-color: #CBD3FE;
+    margin-bottom: 300px;
+}
+
+.topnav {
+    background-color: #F0C2F8;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.myTitle {
+    margin-top: 100px;
+}
+
+.myTitle > h1 {
+    color: white;
+    font-size: 56px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  /* Set the fixed height of the footer here */
+    height: 300px;
+    padding-top: 30px;
+    background-color: #F0C2F8;
+    color: #bbb;
+  }
+  
+  footer a {
+    color: #999;
+    text-decoration:none;
+  }
+  
+  footer a:hover, footer a:focus {
+    color: #aaa;
+    text-decoration:none;
+    border-bottom:1px dotted #999;
+  }
+  
+  footer .form-control {
+      background-color: grey;
+      box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+      border: none;
+      resize: none;
+      color: #d1d2d2;
+      padding: 0.7em 1em;
+  }
